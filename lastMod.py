@@ -12,7 +12,6 @@ __date__ = "2017-04-28"
 url = 'https://api.github.com/users/allegro/repos?sort=pushed&direction=desc'
 req = requests.get(url)
 
-
 data = json.loads(req.content)
 
 print ('Last modified repository' +
