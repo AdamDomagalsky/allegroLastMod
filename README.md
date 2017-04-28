@@ -1,7 +1,9 @@
 # allegroLastMod - drugi etap rekrutacji.
 
 ## Dependency setup
-pip install -r requirements.txt
+>python get-pip.py
+
+>pip install requests
 
 ## HOW TO
 Simply run script _lastMod.py_ via terminal
